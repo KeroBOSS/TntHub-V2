@@ -1,0 +1,879 @@
+local TntHub = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Universal = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local InfiniteYeld = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local CMDX = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local invisibility = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local Qtotp = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local UnamedESP = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local Tpgui = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local Games = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local JailBreak = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local PetXSim = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local BeeSwarm = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local DarkDex = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local Misc = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Saveinstance = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local FpsBoost = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local UniversalSpeed = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+local RadioGUI = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UIGradient_15 = Instance.new("UIGradient")
+local LagServer = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local Frame = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local Main_2 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+TntHub.Name = "TntHub"
+TntHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TntHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+TntHub.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = TntHub
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.664995968, 0, 0.182724223, 0)
+Main.Size = UDim2.new(0, 372, 0, 456)
+
+UICorner.Parent = Main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(53, 53, 53)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(75, 75, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91))}
+UIGradient.Parent = Main
+
+Universal.Name = "Universal"
+Universal.Parent = Main
+Universal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Universal.Position = UDim2.new(0.0474622399, 0, 0.0418780223, 0)
+Universal.Size = UDim2.new(0, 154, 0, 201)
+
+UICorner_2.Parent = Universal
+
+InfiniteYeld.Name = "InfiniteYeld"
+InfiniteYeld.Parent = Universal
+InfiniteYeld.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYeld.Position = UDim2.new(0.0909090936, 0, 0.199004978, 0)
+InfiniteYeld.Size = UDim2.new(0, 126, 0, 24)
+InfiniteYeld.Font = Enum.Font.PermanentMarker
+InfiniteYeld.Text = "Iinfinite Yeld"
+InfiniteYeld.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYeld.TextScaled = true
+InfiniteYeld.TextSize = 14.000
+InfiniteYeld.TextWrapped = true
+
+UICorner_3.Parent = InfiniteYeld
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_2.Parent = InfiniteYeld
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = Universal
+CMDX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.Position = UDim2.new(0.0909090936, 0, 0.358208984, 0)
+CMDX.Size = UDim2.new(0, 126, 0, 24)
+CMDX.Font = Enum.Font.PermanentMarker
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.TextScaled = true
+CMDX.TextSize = 14.000
+CMDX.TextWrapped = true
+
+UICorner_4.Parent = CMDX
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_3.Parent = CMDX
+
+invisibility.Name = "invisibility"
+invisibility.Parent = Universal
+invisibility.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+invisibility.Position = UDim2.new(0.0909090936, 0, 0.51243782, 0)
+invisibility.Size = UDim2.new(0, 126, 0, 24)
+invisibility.Font = Enum.Font.PermanentMarker
+invisibility.Text = "Inivisibility"
+invisibility.TextColor3 = Color3.fromRGB(0, 0, 0)
+invisibility.TextScaled = true
+invisibility.TextSize = 14.000
+invisibility.TextWrapped = true
+
+UICorner_5.Parent = invisibility
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_4.Parent = invisibility
+
+Qtotp.Name = "Qtotp"
+Qtotp.Parent = Universal
+Qtotp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Qtotp.Position = UDim2.new(0.0909090936, 0, 0.666666746, 0)
+Qtotp.Size = UDim2.new(0, 126, 0, 24)
+Qtotp.Font = Enum.Font.PermanentMarker
+Qtotp.Text = "Q to Tp"
+Qtotp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Qtotp.TextScaled = true
+Qtotp.TextSize = 14.000
+Qtotp.TextWrapped = true
+
+UICorner_6.Parent = Qtotp
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_5.Parent = Qtotp
+
+UnamedESP.Name = "UnamedESP"
+UnamedESP.Parent = Universal
+UnamedESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnamedESP.Position = UDim2.new(0.0909090936, 0, 0.815920472, 0)
+UnamedESP.Size = UDim2.new(0, 126, 0, 24)
+UnamedESP.Font = Enum.Font.PermanentMarker
+UnamedESP.Text = "Unamed ESP"
+UnamedESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnamedESP.TextScaled = true
+UnamedESP.TextSize = 14.000
+UnamedESP.TextWrapped = true
+
+UICorner_7.Parent = UnamedESP
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_6.Parent = UnamedESP
+
+Tpgui.Name = "Tpgui"
+Tpgui.Parent = Universal
+Tpgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tpgui.Position = UDim2.new(0.0909090936, 0, 0.0398010015, 0)
+Tpgui.Size = UDim2.new(0, 126, 0, 24)
+Tpgui.Font = Enum.Font.PermanentMarker
+Tpgui.Text = "Tp GUI"
+Tpgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tpgui.TextScaled = true
+Tpgui.TextSize = 14.000
+Tpgui.TextWrapped = true
+
+UICorner_8.Parent = Tpgui
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_7.Parent = Tpgui
+
+Games.Name = "Games"
+Games.Parent = Main
+Games.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Games.Position = UDim2.new(0.047462225, 0, 0.515952289, 0)
+Games.Size = UDim2.new(0, 154, 0, 201)
+
+UICorner_9.Parent = Games
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = Games
+JailBreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak.Position = UDim2.new(0.0909090936, 0, 0.218905479, 0)
+JailBreak.Size = UDim2.new(0, 126, 0, 24)
+JailBreak.Font = Enum.Font.PermanentMarker
+JailBreak.Text = "JailBreak"
+JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak.TextScaled = true
+JailBreak.TextSize = 14.000
+JailBreak.TextWrapped = true
+
+UICorner_10.Parent = JailBreak
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_8.Parent = JailBreak
+
+PetXSim.Name = "PetX Sim"
+PetXSim.Parent = Games
+PetXSim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PetXSim.Position = UDim2.new(0.0909090936, 0, 0.407960206, 0)
+PetXSim.Size = UDim2.new(0, 126, 0, 24)
+PetXSim.Font = Enum.Font.PermanentMarker
+PetXSim.Text = "PetX Sim"
+PetXSim.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetXSim.TextScaled = true
+PetXSim.TextSize = 14.000
+PetXSim.TextWrapped = true
+
+UICorner_11.Parent = PetXSim
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_9.Parent = PetXSim
+
+BeeSwarm.Name = "BeeSwarm"
+BeeSwarm.Parent = Games
+BeeSwarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeeSwarm.Position = UDim2.new(0.0909090936, 0, 0.592039824, 0)
+BeeSwarm.Size = UDim2.new(0, 126, 0, 24)
+BeeSwarm.Font = Enum.Font.PermanentMarker
+BeeSwarm.Text = "BeeSwarm"
+BeeSwarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarm.TextScaled = true
+BeeSwarm.TextSize = 14.000
+BeeSwarm.TextWrapped = true
+
+UICorner_12.Parent = BeeSwarm
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_10.Parent = BeeSwarm
+
+DarkDex.Name = "DarkDex"
+DarkDex.Parent = Games
+DarkDex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkDex.Position = UDim2.new(0.0909090936, 0, 0.0447761267, 0)
+DarkDex.Size = UDim2.new(0, 126, 0, 24)
+DarkDex.Font = Enum.Font.PermanentMarker
+DarkDex.Text = "DarkDex"
+DarkDex.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkDex.TextScaled = true
+DarkDex.TextSize = 14.000
+DarkDex.TextWrapped = true
+
+UICorner_13.Parent = DarkDex
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_11.Parent = DarkDex
+
+Misc.Name = "Misc"
+Misc.Parent = Main
+Misc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Misc.Position = UDim2.new(0.539397776, 0, 0.0439441316, 0)
+Misc.Size = UDim2.new(0, 154, 0, 417)
+
+UICorner_14.Parent = Misc
+
+Saveinstance.Name = "Saveinstance"
+Saveinstance.Parent = Misc
+Saveinstance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Saveinstance.Position = UDim2.new(0.0909090936, 0, 0.0733741447, 0)
+Saveinstance.Size = UDim2.new(0, 126, 0, 24)
+Saveinstance.Font = Enum.Font.PermanentMarker
+Saveinstance.Text = "SaveInstance"
+Saveinstance.TextColor3 = Color3.fromRGB(0, 0, 0)
+Saveinstance.TextScaled = true
+Saveinstance.TextSize = 14.000
+Saveinstance.TextWrapped = true
+
+UICorner_15.Parent = Saveinstance
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_12.Parent = Saveinstance
+
+FpsBoost.Name = "Fps Boost"
+FpsBoost.Parent = Misc
+FpsBoost.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FpsBoost.Position = UDim2.new(0.0909090936, 0, 0.149253786, 0)
+FpsBoost.Size = UDim2.new(0, 126, 0, 24)
+FpsBoost.Font = Enum.Font.PermanentMarker
+FpsBoost.Text = "Fps Boost"
+FpsBoost.TextColor3 = Color3.fromRGB(0, 0, 0)
+FpsBoost.TextScaled = true
+FpsBoost.TextSize = 14.000
+FpsBoost.TextWrapped = true
+
+UICorner_16.Parent = FpsBoost
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_13.Parent = FpsBoost
+
+UniversalSpeed.Name = "UniversalSpeed"
+UniversalSpeed.Parent = Misc
+UniversalSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UniversalSpeed.Position = UDim2.new(0.0909090936, 0, 0.225992396, 0)
+UniversalSpeed.Size = UDim2.new(0, 126, 0, 24)
+UniversalSpeed.Font = Enum.Font.PermanentMarker
+UniversalSpeed.Text = "Universal Speed"
+UniversalSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+UniversalSpeed.TextScaled = true
+UniversalSpeed.TextSize = 14.000
+UniversalSpeed.TextWrapped = true
+
+UICorner_17.Parent = UniversalSpeed
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_14.Parent = UniversalSpeed
+
+RadioGUI.Name = "RadioGUI"
+RadioGUI.Parent = Misc
+RadioGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RadioGUI.Position = UDim2.new(0.0909090936, 0, 0.300332934, 0)
+RadioGUI.Size = UDim2.new(0, 126, 0, 24)
+RadioGUI.Font = Enum.Font.PermanentMarker
+RadioGUI.Text = "Radio GUI"
+RadioGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+RadioGUI.TextScaled = true
+RadioGUI.TextSize = 14.000
+RadioGUI.TextWrapped = true
+
+UICorner_18.Parent = RadioGUI
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_15.Parent = RadioGUI
+
+LagServer.Name = "LagServer"
+LagServer.Parent = Misc
+LagServer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LagServer.Position = UDim2.new(0.0909090936, 0, 0.374673486, 0)
+LagServer.Size = UDim2.new(0, 126, 0, 24)
+LagServer.Font = Enum.Font.PermanentMarker
+LagServer.Text = "Lag Server"
+LagServer.TextColor3 = Color3.fromRGB(0, 0, 0)
+LagServer.TextScaled = true
+LagServer.TextSize = 14.000
+LagServer.TextWrapped = true
+
+UICorner_19.Parent = LagServer
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_16.Parent = LagServer
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(14, 51, 85)
+Frame.Position = UDim2.new(0, 0, -0.157894731, 0)
+Frame.Size = UDim2.new(0, 372, 0, 46)
+
+UICorner_20.Parent = Frame
+
+Main_2.Name = "Main"
+Main_2.Parent = Main
+Main_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_2.Position = UDim2.new(0, 0, -0.157894716, 0)
+Main_2.Size = UDim2.new(0, 372, 0, 46)
+
+UICorner_21.Parent = Main_2
+
+TextLabel.Parent = Main_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.231182799, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 38)
+TextLabel.Font = Enum.Font.PermanentMarker
+TextLabel.Text = "TntHub V2"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 29.000
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.680107534, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 119, 0, 19)
+TextLabel_2.Font = Enum.Font.Oswald
+TextLabel_2.Text = "Creator: k!d0,Kero"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 28.000
+TextLabel_2.TextWrapped = true
+
+-- Scripts:
+
+local function SKPG_fake_script() -- InfiniteYeld.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYeld)
+
+	InfiniteYeld.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(SKPG_fake_script)()
+local function BLOCKDF_fake_script() -- CMDX.LocalScript 
+	local script = Instance.new('LocalScript', CMDX)
+
+	CMDX.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(BLOCKDF_fake_script)()
+local function AUXG_fake_script() -- invisibility.LocalScript 
+	local script = Instance.new('LocalScript', invisibility)
+
+	invisibility.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/FE%20Invisible.lua", true))()
+	end)
+end
+coroutine.wrap(AUXG_fake_script)()
+local function VRSA_fake_script() -- Qtotp.LocalScript 
+	local script = Instance.new('LocalScript', Qtotp)
+
+	Qtotp.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/qyww70GR'),true))()
+	end)
+end
+coroutine.wrap(VRSA_fake_script)()
+local function MXOZX_fake_script() -- UnamedESP.LocalScript 
+	local script = Instance.new('LocalScript', UnamedESP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua", true))()
+	end)
+end
+coroutine.wrap(MXOZX_fake_script)()
+local function FHPRL_fake_script() -- Tpgui.LocalScript 
+	local script = Instance.new('LocalScript', Tpgui)
+
+	Tpgui.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+	end)
+end
+coroutine.wrap(FHPRL_fake_script)()
+local function ZJAIXFS_fake_script() -- Universal.Rgb 
+	local script = Instance.new('LocalScript', Universal)
+
+	while true do
+		script.Parent.BackgroundColor3 = Color3.fromRGB(157, 255, 198)
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(108, 255, 243 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(103, 169, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(123, 97, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(214, 90, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 87, 205 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 80, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 138, 84 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+	end
+end
+coroutine.wrap(ZJAIXFS_fake_script)()
+local function GXCUCI_fake_script() -- JailBreak.LocalScript 
+	local script = Instance.new('LocalScript', JailBreak)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"),true))()
+	end)
+end
+coroutine.wrap(GXCUCI_fake_script)()
+local function YRLKH_fake_script() -- PetXSim.LocalScript 
+	local script = Instance.new('LocalScript', PetXSim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/95HthyJq"),true))()
+	end)
+end
+coroutine.wrap(YRLKH_fake_script)()
+local function HYJMYTY_fake_script() -- BeeSwarm.LocalScript 
+	local script = Instance.new('LocalScript', BeeSwarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/not-weuz/Lua/main/bsstrainer.lua"),true))()
+	end)
+end
+coroutine.wrap(HYJMYTY_fake_script)()
+local function KXCGUO_fake_script() -- DarkDex.LocalScript 
+	local script = Instance.new('LocalScript', DarkDex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/fPP8bZ8Z"),true))()
+	end)
+end
+coroutine.wrap(KXCGUO_fake_script)()
+local function WVRC_fake_script() -- Games.Rgb 
+	local script = Instance.new('LocalScript', Games)
+
+	while true do
+		script.Parent.BackgroundColor3 = Color3.fromRGB(157, 255, 198)
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(108, 255, 243 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(103, 169, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(123, 97, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(214, 90, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 87, 205 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 80, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 138, 84 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+	end
+end
+coroutine.wrap(WVRC_fake_script)()
+local function XKXRO_fake_script() -- Saveinstance.LocalScript 
+	local script = Instance.new('LocalScript', Saveinstance)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/ywFjby1i"),true))()
+	end)
+end
+coroutine.wrap(XKXRO_fake_script)()
+local function TYTF_fake_script() -- FpsBoost.LocalScript 
+	local script = Instance.new('LocalScript', FpsBoost)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/ywFjby1i"),true))()
+	end)
+end
+coroutine.wrap(TYTF_fake_script)()
+local function FVSTR_fake_script() -- UniversalSpeed.LocalScript 
+	local script = Instance.new('LocalScript', UniversalSpeed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AaronS69420/unca/main/ff"))()
+	end)
+end
+coroutine.wrap(FVSTR_fake_script)()
+local function SPXK_fake_script() -- RadioGUI.LocalScript 
+	local script = Instance.new('LocalScript', RadioGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AaronS69420/unca/main/ff"))()
+	end)
+end
+coroutine.wrap(SPXK_fake_script)()
+local function BAIBR_fake_script() -- Misc.Rgb 
+	local script = Instance.new('LocalScript', Misc)
+
+	while true do
+		script.Parent.BackgroundColor3 = Color3.fromRGB(157, 255, 198)
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(108, 255, 243 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(103, 169, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(123, 97, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(214, 90, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 87, 205 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 80, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 138, 84 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+	end
+end
+coroutine.wrap(BAIBR_fake_script)()
+local function QSLBN_fake_script() -- LagServer.LocalScript 
+	local script = Instance.new('LocalScript', LagServer)
+
+	local prefix = ":"
+	
+	local msg = (prefix .. "clean "):rep(10000)
+	
+	for i = 1, 100 do
+		game.Players:Chat(msg)
+	end 
+end
+coroutine.wrap(QSLBN_fake_script)()
+local function THJWPZR_fake_script() -- Main.Move 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService("UserInputService")
+	function drag (Frame)
+		dragToggle = nil
+		dragSpeed = 0.23 --change drag speed here (up to 1 down to 0)
+		dragInput = nil
+		dragStart = nil
+		dragPos = nil
+		function updateInput(input)
+			Delta = input.Position - dragStart
+			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	drag(script.Parent)
+end
+coroutine.wrap(THJWPZR_fake_script)()
+local function HZBP_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	Main.Active = true
+	Main.Draggable = true
+end
+coroutine.wrap(HZBP_fake_script)()
+local function WETUMT_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	TextLabel.Active = true
+	TextLabel.Draggable = true
+end
+coroutine.wrap(WETUMT_fake_script)()
+local function VLHIFXN_fake_script() -- Main_2.LocalScript 
+	local script = Instance.new('LocalScript', Main_2)
+
+	Main.Active = true
+	Main.Draggable = true
+end
+coroutine.wrap(VLHIFXN_fake_script)()
+local function ZJFPXOF_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		elseif Text == ("Button2 text") then
+			print ("Answer2")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Welcome to TntHub V2";
+		Text = "Welcome to TntHub V2";
+		Icon = "";
+		Duration = 10;
+		Button1 = "Ok";
+		Callback = NotificationBindable;
+	})
+end
+coroutine.wrap(ZJFPXOF_fake_script)()
+local function SOOI_fake_script() -- Main.Rgb 
+	local script = Instance.new('LocalScript', Main)
+
+	while true do
+		script.Parent.BackgroundColor3 = Color3.fromRGB(157, 255, 198)
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(108, 255, 243 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(103, 169, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(123, 97, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(214, 90, 255 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 87, 205 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 80, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 138, 84 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+		wait(0.1)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(255, 235, 83 )
+	end
+end
+coroutine.wrap(SOOI_fake_script)()
+local function UAZQBT_fake_script() -- Main.Whitelist 
+	local script = Instance.new('LocalScript', Main)
+
+	local plr = game:GetService("Players").LocalPlayer
+	if plr:IsInGroup("13577198") then
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 253
+	else
+		plr:Kick("You are not whitelisted")
+	end
+end
+coroutine.wrap(UAZQBT_fake_script)()
+local function CXSGOXE_fake_script() -- Main.FlyManager 
+	local script = Instance.new('LocalScript', Main)
+
+	
+	
+	
+	local Key = "e" -- Lowercase Letter
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local Player = game.Players.LocalPlayer
+	repeat wait() until Player.Character and Player.Character:FindFirstChild('Humanoid')
+	local Mouse = Player:GetMouse()
+	local IsFlying = false
+	local flyv
+	local flyg
+	local IsRunning = false
+	local f = 0
+	local Speed = 50
+	local LastSpeed = Speed
+	local maxspeed = 100
+	local wdown = false
+	local sdown = false
+	Mouse.KeyDown:Connect(function(key)
+		if key:lower() == Key then
+			if IsFlying then
+				IsFlying = false
+			    flyv:Destroy()
+				flyg:Destroy()
+				script.Parent.Frame.IsOn.Text = "Off"
+				script.Parent.Frame.IsOn.TextColor3 = Color3.fromRGB(255,0,0)
+				Player.Character:WaitForChild('Humanoid').PlatformStand = false
+			else
+				IsFlying = true
+				 flyv = Instance.new("BodyVelocity")
+				
+				flyv.Parent = Player.Character:FindFirstChild('Torso') or Player.Character:FindFirstChild('UpperTorso')
+				flyv.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+				
+				 flyg = Instance.new("BodyGyro")
+				flyg.Parent = Player.Character:FindFirstChild('Torso') or Player.Character:FindFirstChild('UpperTorso')
+				flyg.MaxTorque = Vector3.new(9e9,9e9,9e9)
+				flyg.P = 1000
+				flyg.D = 50
+				script.Parent.Frame.IsOn.Text = "On"
+				script.Parent.Frame.IsOn.TextColor3 = Color3.fromRGB(0,255,0)
+				Player.Character:WaitForChild('Humanoid').PlatformStand = true
+			end
+		end
+	end)
+	script.Parent.Frame.TextButton.MouseButton1Click:Connect(function()
+		
+			if IsFlying then
+				IsFlying = false
+				flyv:Destroy()
+				flyg:Destroy()
+			    script.Parent.Frame.IsOn.Text = "Off"
+			    script.Parent.Frame.IsOn.TextColor3 = Color3.fromRGB(255,0,0)
+				Player.Character:WaitForChild('Humanoid').PlatformStand = false
+			else
+				IsFlying = true
+				flyv = Instance.new("BodyVelocity")
+	
+			flyv.Parent = Player.Character:FindFirstChild('Torso') or Player.Character:FindFirstChild('UpperTorso')
+				flyv.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+	
+				flyg = Instance.new("BodyGyro")
+			flyg.Parent = Player.Character:FindFirstChild('Torso') or Player.Character:FindFirstChild('UpperTorso')
+				flyg.MaxTorque = Vector3.new(9e9,9e9,9e9)
+				flyg.P = 1000
+				flyg.D = 50
+			script.Parent.Frame.IsOn.Text = "On"
+			script.Parent.Frame.IsOn.TextColor3 = Color3.fromRGB(0,255,0)
+			Player.Character:WaitForChild('Humanoid').PlatformStand = true
+			end
+	end)
+	script.Parent.Frame.TextButton2.FocusLost:Connect(function(Entered)
+		if Entered then
+			local BeginSpeed = tonumber(script.Parent.Frame.TextButton2.Text)
+			if BeginSpeed ~= nil then
+				Speed = BeginSpeed
+				print(BeginSpeed)
+			end
+		end	
+	end)
+	
+	
+	spawn(function()
+		while true do
+			wait()
+		if IsFlying then
+			
+				flyg.CFrame = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((f+0)*50*Speed/maxspeed),0,0) 
+					flyv.Velocity = workspace.CurrentCamera.CoordinateFrame.LookVector * Speed
+					wait(0.1)
+				
+				if Speed > maxspeed then
+					Speed = maxspeed
+					f = 1
+				else
+					f = 0
+				end
+					if Speed < 0 then
+					Speed = 0
+					f = 0
+				
+				end
+			
+			end
+			if IsRunning then
+			Speed = LastSpeed
+		else
+			if not Speed == 0 then
+				LastSpeed = Speed
+			end 
+			Speed = 0
+		end
+		end
+		
+		
+	end)
+	
+	Player.Character.Humanoid.Changed:Connect(function()
+		if Player.Character.Humanoid.Health == 0 then
+		if IsFlying then
+		IsFlying = false
+		flyg:Destroy()
+		flyv:Destroy()
+		end
+		end
+	end)
+	Player.Character.Humanoid.Changed:Connect(function(Prop)
+		
+			if Player.Character.Humanoid.MoveDirection == Vector3.new(0,0,0) then
+				IsRunning = false
+			else
+				IsRunning = true
+			end	
+	end)
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(CXSGOXE_fake_script)()
